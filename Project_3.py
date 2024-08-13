@@ -105,7 +105,7 @@ def links_url():
                         dict_data.update({key:value}) #update dict 
             list_data.append(dict_data) #update dict to the list, becouse we have same keys on every page we cannot used dict for all, the data in dict will be rewritten so its need to be stored in list 
         tr_party()
-    pprint(list_data)
+    
     return list_data       
 
 def append_data():
